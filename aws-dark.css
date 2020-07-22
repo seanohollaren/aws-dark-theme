@@ -71,8 +71,7 @@ a.pagetoc,
 .xterm-selection-layer,
 .xterm-text-layer,
 .xterm-helpers,
-.xterm-viewport,
-sfn-task-resource-link {
+.xterm-viewport {
     -webkit-filter: invert(100%) !important;
 }
 
@@ -100,6 +99,9 @@ sfn-task-resource-link {
     -webkit-filter: invert(100%) !important;
 }
 span[class="awsui-util-status-positive"] {
+    -webkit-filter: invert(100%) !important;
+}
+tr[class="awsui-table-row ng-scope"] span[class="awsui-icon awsui-icon-size-normal awsui-icon-variant-link"] {
     -webkit-filter: invert(100%) !important;
 }
 
