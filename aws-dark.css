@@ -147,6 +147,10 @@ color:darkgray;
 color:#6a686a;
 }
 
+.datapoint-leaderboard-row-color {
+    -webkit-filter: invert(100%) !important;
+}
+
 /* Docs */
 .awsdocs-banner,
 .awsdocs-local-nav-header,
